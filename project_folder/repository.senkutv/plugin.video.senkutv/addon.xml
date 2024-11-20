@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.senkutv" name="Senku" version="1.0.0" provider-name="Tbleo">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" /> <!-- Kodi en Python 3 -->
+    <import addon="script.module.requests" version="2.22.0" /> <!-- Compatible con Python 3 -->
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es_es">Senku - Play AceStream links on Kodi</summary>
+    <description lang="es_es">Senku reproduce contenido deportivo.</description>
+    <disclaimer lang="es_es">Se necesita tener Acestream instalado</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=xxxx</forum>
+    <website>http://senkutv.com</website>
+    <email>you@youremail.com</email>
+    <source>http://github.com/you/plugin.video.senkutv</source>
+    <news>v1.0.0 (11/11/2024)
+      [new] Initial release of SENKUTV with AceStream support.
+    </news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
